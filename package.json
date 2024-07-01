@@ -1,8 +1,8 @@
 {
-  "name": "react-quick-start",
+  "name": "golia-days",
   "version": "1.0.0",
-  "description": "vite + react + ts + mobx + tailwindcss + eslint + prettier template",
-  "repository": "git@github.com:goliajp/react-quick-start.git",
+  "description": "staff's workdays arrangement",
+  "repository": "git@github.com:goliajp/days.git",
   "author": "panda <lihao@golia.jp>",
   "license": "MIT",
   "private": false,
@@ -10,6 +10,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "ncu": "ncu -u -x eslint",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
   },
   "dependencies": {
